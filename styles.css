@@ -1,0 +1,78 @@
+.jumbotron {
+    background-color: rgb(144, 216, 216);
+    height: 80px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width:100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.filesec, .dbdata, .projects, .article-sec {
+    margin-top: 140px;
+    background-color:rgb(247, 245, 243);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.filemsg {
+    display: none;
+}
+
+.links {
+    color: #0d6efd;
+    border: 1px solid #0d6efd;
+}
+
+.links:hover {
+    background-color: #0d6efd;
+    color:white;
+    border: 1px solid #0d6efd;
+}
+
+.title {
+    margin-left: 20px;
+}
+
+.modal-header {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.modal-footer {
+    background-color: #eef1f5;
+}
+
+.funbtn {
+    width:100px;
+}
+
+.proj-links, .pdf-links {
+    text-decoration: none;
+    color: black;
+}
+
+.proj-links:hover, .pdf-links:hover {
+    text-decoration: underline;
+    color: #0d6efd;
+}
+
+.pdf-links {
+    font-size: 12px;
+}
+
+@media all and (max-width:768px) {
+    .jumbotron {
+        letter-spacing: normal;
+        font-size: 18px;
+        height:65px;
+    }
+    .filesec, .dbdata, .projects, .article-sec {
+        margin-top: 100px;
+        width:95%;
+        font-size: 14px;
+    }
+}
