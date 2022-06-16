@@ -14,7 +14,7 @@ if (isset($_POST["login"])) {
         header("Location: dashboard.php");
     }
     else {
-        header("Location: index.php");
+        header("Location: index.html");
     }
 }
 else if (isset($_POST["newproj"])) {
@@ -145,6 +145,6 @@ else {
     session_start();
     session_unset();
     session_destroy();
-    header("location: index.php");
+    header("location: index.html");
 }
 ?>

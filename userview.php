@@ -1,7 +1,7 @@
 <?php
 session_start();
 if($_SESSION['username']=='') {
-    header("Location: index.php");
+    header("Location: index.html");
 }
 include('db_connection.php');
 $sql="SELECT * FROM sampletab";
